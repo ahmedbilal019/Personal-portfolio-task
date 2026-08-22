@@ -4,10 +4,18 @@ function Navbar() {
   return (
     <div>
       <ul className="flex flex-row gap-11">
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <a href="">About</a>
+        </li>
+        <li>
+          <a href="">Skills</a>
+        </li>
+        <li>
+          <a href="">Projects</a>
+        </li>
+        <li>
+          <a href="">Contact</a>
+        </li>
       </ul>
     </div>
   );

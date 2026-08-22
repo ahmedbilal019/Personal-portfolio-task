@@ -1,14 +1,17 @@
 import React from "react";
-
+import "../App.css";
 function Hero() {
   return (
-    <div className="flex flex-row justify-evenly">
+    <div className="hero-sec flex flex-row justify-center items-center m-auto">
       <div className="intro">
-        {" "}
-        <h1>Hello! I am Ahmed Bilal</h1>
-        <p>CS Graduate & Web Developer</p>
+        <h1 className="tagLine text-7xl ">
+          Hello! I'm <strong>Ahmed Bilal</strong>
+        </h1>
+        <p className="text-2xl">CS Graduate & Web Developer</p>
         <br />
-        <button>Go to Projects</button>
+        <button className="bg-blue-600 text-white font-bold p-2 rounded-lg">
+          Go to Projects
+        </button>
       </div>
     </div>
   );

@@ -1,1 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oxygen:wght@300;400;700&display=swap");
 @import "tailwindcss";
+html {
+  background-color: black;
+  color: white;
+}
+.hero-sec {
+  height: 70vh;
+}
+.profileImg {
+  height: 50%;
+}
+.tagLine {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 800;
+  /* font-size: 24px; */
+}
+strong {
+  color: orange;
+}
