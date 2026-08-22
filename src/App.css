@@ -6,6 +6,8 @@ html {
 }
 .hero-sec {
   height: 70vh;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .profileImg {
   height: 50%;

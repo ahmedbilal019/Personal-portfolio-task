@@ -10,7 +10,7 @@ function Hero() {
         <p className="text-2xl">CS Graduate & Web Developer</p>
         <br />
         <button className="bg-blue-600 text-white font-bold p-2 rounded-lg">
-          Go to Projects
+          View my Work
         </button>
       </div>
     </div>
