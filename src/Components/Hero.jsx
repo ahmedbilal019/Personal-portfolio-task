@@ -5,7 +5,7 @@ function Hero() {
     <div className="hero-sec flex flex-row justify-center items-center m-auto">
       <div className="intro">
         <h1 className="tagLine text-7xl ">
-          Hello! I'm <strong>Ahmed Bilal</strong>
+          Hello! I'm <strong className="text-orange-500">Ahmed Bilal</strong>
         </h1>
         <p className="text-2xl">CS Graduate & Web Developer</p>
         <br />

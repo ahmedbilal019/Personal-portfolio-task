@@ -11,7 +11,7 @@ function About() {
         />
       </div>
       <div className="aboutMe">
-        <h2 className="text-2xl text-orange-300 my-2">Who i am?</h2>
+        <h2 className="text-2xl text-orange-500 my-2">Who i am?</h2>
         <p className="w-3xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
           dignissimos ad ipsum officia beatae numquam soluta sunt sint odio quod

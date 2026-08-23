@@ -15,20 +15,20 @@ function Skills() {
   ];
 
   return (
-    <div className="skillscard flex flex-row justify-evenly">
+    <div className=" flex flex-row justify-evenly">
+      <div className="text-center mb-10">
+        <h2 className="text-4xl font-bold mb-3">My Skills</h2>
+
+        <p className="text-gray-400">My Skills set Includes:</p>
+      </div>
       {skills.map((skill) => {
         const Icon = skill.icon;
 
         return (
-          <div
-            key={skill.name}
-            className="flex flex-col items-center gap-2"
-          >
+          <div key={skill.name} className="flex flex-col items-center gap-2">
             <Icon size={50} />
 
-            <span className="text-2xl">
-              {skill.name}
-            </span>
+            <span className="text-2xl text-orange-500">{skill.name}</span>
           </div>
         );
       })}
