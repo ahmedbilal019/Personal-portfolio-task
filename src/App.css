@@ -17,7 +17,11 @@ html {
   font-weight: 800;
   /* font-size: 24px; */
 }
-
+.nav a {
+  font-size: large;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .skillsIcons {
   width: 150px;
   height: 150px;

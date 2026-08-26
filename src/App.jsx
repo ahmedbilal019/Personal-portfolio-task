@@ -6,19 +6,20 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <>
-      <div className="navbar flex flex-row items-center justify-between sticky top-0 bg-black py-3 px-5 ">
-        <h1>PERSONAL PORTFOLIO</h1>
+      <div className="sticky top-0 bg-black py-3 px-5 ">
         <Navbar></Navbar>
       </div>
       <Hero></Hero>
-      <About></About>
+      {/* <About></About> */}
       <Skills></Skills>
       <Projects></Projects>
       <Contact></Contact>
+      <Footer></Footer>
     </>
   );
 }
