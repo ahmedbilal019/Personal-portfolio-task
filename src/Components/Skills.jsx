@@ -15,20 +15,20 @@ function Skills() {
   ];
 
   return (
-    <section>
-      <div className="text-center mb-10">
+    <section id="skills" className="flex flex-col items-center justify-center min-h-screen ">
+      <div className="text-center my-12">
         <h2 className="text-4xl font-bold mb-3">My Skills</h2>
 
         <p className="text-gray-400">My Skills set Includes:</p>
       </div>
-      <div className=" flex flex-row justify-evenly">
+      <div className=" flex flex-row  justify-between">
         {skills.map((skill) => {
           const Icon = skill.icon;
 
           return (
             <div
               key={skill.name}
-              className="flex flex-col items-center gap-2 cursor-pointer"
+              className="flex flex-col items-center mx-10 cursor-pointer"
             >
               <Icon size={50} />
 

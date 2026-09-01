@@ -2,10 +2,13 @@ import React from "react";
 import "../App.css";
 function About() {
   return (
-    <div className="flex flex-row justify-around mx-2.5">
+    <section
+      id="about"
+      className="flex flex-row items-center justify-center min-h-screen"
+    >
       <div className="profile flex justify-center  ">
         <img
-          className="profileImg rounded-lg"
+          className="profileImg rounded-lg mx-20 my-20 w-100 h-100"
           src="src\assets\profile-img.jpeg"
           alt="my profile image "
         />
@@ -26,7 +29,7 @@ function About() {
           voluptatum neque voluptas quam.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 

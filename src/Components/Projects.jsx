@@ -72,7 +72,7 @@ function Projects() {
       : projects.filter((project) => project.category === category);
 
   return (
-    <section className="bg-black text-white px-6 py-20">
+    <section id="projects" className="bg-black text-white px-6 py-20 min-h-screen">
       {/* Heading */}
       <div className="text-center mb-10">
         <h2 className="text-4xl font-bold mb-3">My Projects</h2>

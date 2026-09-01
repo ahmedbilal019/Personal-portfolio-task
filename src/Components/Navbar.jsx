@@ -10,13 +10,13 @@ function Navbar() {
         {" "}
         <h1>PERSONAL PORTFOLIO</h1>
         <div className="nav hidden sm:block ">
-          <a href="">About</a>
+          <a href="#about">About</a>
 
-          <a href="">Skills</a>
+          <a href="#skills">Skills</a>
 
-          <a href="">Projects</a>
+          <a href="#projects">Projects</a>
 
-          <a href="">Contact</a>
+          <a href="#contact">Contact</a>
         </div>
         <button
           className="block sm:hidden"
@@ -32,19 +32,19 @@ function Navbar() {
       <div
         className={` ${isOpen ? "block" : "hidden"} nav sm:hidden bg-gray-800 text-white`}
       >
-        <a href="" className="block">
+        <a href="#about" className="block">
           About
         </a>
 
-        <a href="" className="block">
+        <a href="#skills" className="block">
           Skills
         </a>
 
-        <a href="" className="block">
+        <a href="#projects" className="block">
           Projects
         </a>
 
-        <a href="" className="block">
+        <a href="#contact" className="block">
           Contact
         </a>
       </div>

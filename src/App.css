@@ -3,14 +3,12 @@
 html {
   background-color: black;
   color: white;
+  scroll-behavior: smooth;
 }
-.hero-sec {
-  height: 70vh;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
+
 .profileImg {
-  height: 50%;
+  height: 40%;
+  
 }
 .tagLine {
   font-family: "Josefin Sans", sans-serif;
