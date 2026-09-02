@@ -4,7 +4,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section id="contact" className="bg-gray-800 ">
+    <section id="contact" className="bg-gray-800  ">
       <div className="text-center mb-5 pt-5">
         <h2 className="text-4xl font-bold mb-3">Contact Me</h2>
         <p className="text-gray-400">Get intouch with me!</p>

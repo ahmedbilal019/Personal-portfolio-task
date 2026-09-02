@@ -15,10 +15,10 @@ function App() {
         <Navbar></Navbar>
       </div>
       <Hero></Hero>
-      <About></About>
+      {/* <About></About> */}
       <Skills></Skills>
       <Projects></Projects>
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
       <Footer></Footer>
     </>
   );

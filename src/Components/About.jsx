@@ -4,7 +4,7 @@ function About() {
   return (
     <section
       id="about"
-      className="flex flex-row items-center justify-center min-h-screen"
+      className="flex flex-row items-center justify-center min-h-screen flex-wrap"
     >
       <div className="profile flex justify-center  ">
         <img
@@ -15,14 +15,14 @@ function About() {
       </div>
       <div className="aboutMe">
         <h2 className="text-2xl text-orange-500 my-2">Who i am?</h2>
-        <p className="w-3xl">
+        <p className="w-2xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
           dignissimos ad ipsum officia beatae numquam soluta sunt sint odio quod
           debitis voluptatum aliquam, expedita cupiditate dolor quos aliquid
           natus pariatur.
         </p>
         <br />
-        <p className="w-3xl">
+        <p className="w-2xl">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error veniam
           ducimus ipsum aliquam! Dolorum dolor reiciendis recusandae rem?
           Doloremque, praesentium sit? Esse, quae. Harum quis voluptatem
