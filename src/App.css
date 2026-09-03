@@ -8,7 +8,6 @@ html {
 
 .profileImg {
   height: 40%;
-  
 }
 .tagLine {
   font-family: "Josefin Sans", sans-serif;
@@ -27,7 +26,8 @@ html {
 .inputField {
   padding-left: 5px;
   padding-right: 5px;
-  width: 300px;
+  width: 100%;
+  font-size: 18px;
   min-width: 50px;
   border: 0.2px solid lightgray;
   border-radius: 5px;

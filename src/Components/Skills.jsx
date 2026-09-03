@@ -33,7 +33,10 @@ function Skills() {
               key={skill.name}
               className="flex flex-col items-center mx-10  cursor-pointer "
             >
-              <Icon size={50} />
+              <Icon
+                size={50}
+                className=" transition duration-400 ease-in-out hover:-translate-y-1 hover:scale-120"
+              />
 
               <span className="text-2xl text-orange-500">{skill.name}</span>
             </div>

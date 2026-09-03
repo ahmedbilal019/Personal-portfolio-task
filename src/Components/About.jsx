@@ -8,8 +8,8 @@ function About() {
     >
       <div className="profile flex justify-center  ">
         <img
-          className="profileImg rounded-lg mx-20 my-20 w-100 h-100"
-          src="src\assets\profile-img.jpeg"
+          className="profileImg rounded-lg mx-20 my-20 w-80 h-80"
+          src="src\assets\profile.jpg"
           alt="my profile image "
         />
       </div>

@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 function Contact() {
   return (
     <section id="contact" className="bg-gray-800  ">
@@ -9,8 +7,8 @@ function Contact() {
         <h2 className="text-4xl font-bold mb-3">Contact Me</h2>
         <p className="text-gray-400">Get intouch with me!</p>
       </div>
-      <div className="flex justify-center m-auto px-60 py-10  ">
-        <form action="" className="flex flex-col gap-1.5">
+      <div className="flex justify-center px-4 sm:px-8 md:px-16 lg:px-32 py-10  ">
+        <form action="" className="flex flex-col  gap-4 w-full max-w-lg">
           <div>
             <label htmlFor="" className="font-medium text-base">
               Name:
@@ -64,7 +62,6 @@ function Contact() {
           </div>
         </form>
       </div>
-     
     </section>
   );
 }
