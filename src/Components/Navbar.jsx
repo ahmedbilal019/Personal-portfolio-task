@@ -8,17 +8,37 @@ function Navbar() {
     <section>
       <div className="  flex  justify-between items-center">
         {" "}
-        <h1>PERSONAL PORTFOLIO</h1>
+        <a href="#hero" className="text-2xl font-semibold ">
+          <h1>Ahmed's Portfolio</h1>
+        </a>
         <div className="nav hidden sm:block text-3xl font-semibold ">
-          <a href="#about" className="hover:underline hover:text-orange-600 hover:underline-offset-3">
+          <a
+            href="#about"
+            className="hover:underline hover:text-orange-600 hover:underline-offset-3"
+          >
             About
           </a>
 
-          <a href="#skills" className=" hover:underline hover:text-orange-600 hover:underline-offset-3">Skills</a>
+          <a
+            href="#skills"
+            className=" hover:underline hover:text-orange-600 hover:underline-offset-3"
+          >
+            Skills
+          </a>
 
-          <a href="#projects" className=" hover:underline hover:text-orange-600 hover:underline-offset-3">Projects</a>
+          <a
+            href="#projects"
+            className=" hover:underline hover:text-orange-600 hover:underline-offset-3"
+          >
+            Projects
+          </a>
 
-          <a href="#contact" className=" hover:underline hover:text-orange-600 hover:underline-offset-3">Contact</a>
+          <a
+            href="#contact"
+            className=" hover:underline hover:text-orange-600 hover:underline-offset-3"
+          >
+            Contact
+          </a>
         </div>
         <button
           className="block sm:hidden"

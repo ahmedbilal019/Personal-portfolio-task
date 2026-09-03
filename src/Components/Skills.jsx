@@ -35,7 +35,7 @@ function Skills() {
             >
               <Icon
                 size={50}
-                className=" transition duration-400 ease-in-out hover:-translate-y-1 hover:scale-120"
+                className=" transition duration-400 ease-in-out hover:-translate-y-1 hover:scale-130"
               />
 
               <span className="text-2xl text-orange-500">{skill.name}</span>
