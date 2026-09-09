@@ -5,7 +5,9 @@ html {
   color: white;
   scroll-behavior: smooth;
 }
-
+.hero-sec {
+  background: linear-gradient(to bottom, #000814 0%, #121a2c 100%);
+}
 .profileImg {
   height: 40%;
 }
@@ -13,6 +15,50 @@ html {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 800;
   /* font-size: 24px; */
+  animation: slideLeft 3s ease-in-out;
+  animation-delay: 0s;
+}
+@keyframes slideLeft {
+  from {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.intro p {
+  animation: slideBottom 1.5s ease-in-out;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+}
+@keyframes slideBottom {
+  0% {
+    transform: translatey(-20px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translatey(0);
+    opacity: 1;
+  }
+}
+.projectBtn {
+  animation: fadeIn 1s ease-in-out;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 .nav a {
   font-size: large;

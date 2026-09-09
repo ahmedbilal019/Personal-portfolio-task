@@ -8,7 +8,7 @@ function Navbar() {
     <section>
       <div className="  flex  justify-between items-center">
         {" "}
-        <a href="#hero" className="text-2xl font-semibold ">
+        <a href="" className="text-2xl font-semibold ">
           <h1>Ahmed's Portfolio</h1>
         </a>
         <div className="nav hidden sm:block text-3xl font-semibold ">

@@ -6,7 +6,7 @@ import { FaArrowCircleUp } from "react-icons/fa";
 function Footer() {
   return (
     <div>
-      <div className="flex flex-row justify-end">
+      <div className="flex flex-row justify-end ">
         <a href="#hero">
           <FaArrowCircleUp size={35} className="animate-bounce sticky " />
         </a>
