@@ -30,22 +30,22 @@ function About() {
         </p>
       </div> */}
       <div className="aboutMe w-full max-w-3xl px-4 sm:px-6 md:px-0">
-        <h2 className="text-2xl text-orange-500 my-2">Who I am?</h2>
+        <h2 className="text-2xl text-orange-500 my-2">About Me!</h2>
 
         <p className="w-full text-base leading-7">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
-          dignissimos ad ipsum officia beatae numquam soluta sunt sint odio quod
-          debitis voluptatum aliquam, expedita cupiditate dolor quos aliquid
-          natus pariatur.
+          I’m a Computer Science graduate with a passion for web development and
+          building things for the web. I enjoy turning ideas into functional,
+          responsive, and user-friendly digital experiences.
         </p>
 
         <br />
 
         <p className="w-full text-base leading-7">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error veniam
-          ducimus ipsum aliquam! Dolorum dolor reiciendis recusandae rem?
-          Doloremque, praesentium sit? Esse, quae. Harum quis voluptatem
-          voluptatum neque voluptas quam.
+          I’m continuously improving my development skills by working on
+          personal projects, exploring new technologies, and learning through
+          hands-on experience. Each project gives me an opportunity to solve
+          problems, experiment with different approaches, and become a better
+          developer.
         </p>
       </div>
     </section>

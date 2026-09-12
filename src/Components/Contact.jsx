@@ -1,13 +1,14 @@
 import React from "react";
+import { FaArrowCircleUp } from "react-icons/fa";
 
 function Contact() {
   return (
-    <section id="contact" className="bg-gray-800  ">
+    <section id="contact" className="bg-gray-800">
       <div className="text-center mb-5 pt-5">
         <h2 className="text-4xl font-bold mb-3">Contact Me</h2>
         <p className="text-gray-400">Get intouch with me!</p>
       </div>
-      <div className="flex justify-center px-4 sm:px-8 md:px-16 lg:px-32 py-10  ">
+      <div className="flex justify-center px-4 sm:px-8 md:px-16 lg:px-32 py-2  ">
         <form action="" className="flex flex-col  gap-4 w-full max-w-lg">
           <div>
             <label htmlFor="" className="font-medium text-base">
@@ -61,6 +62,11 @@ function Contact() {
             </button>
           </div>
         </form>
+      </div>
+      <div className="flex flex-row justify-end ">
+        <a href="#hero">
+          <FaArrowCircleUp size={35} className="animate-bounce sticky " />
+        </a>
       </div>
     </section>
   );
