@@ -14,28 +14,28 @@ function Navbar() {
         <div className="nav hidden sm:block text-3xl font-semibold ">
           <a
             href="#about"
-            className="hover:underline hover:text-orange-600 hover:underline-offset-3"
+            className="hover:underline hover:text-orange-500 hover:underline-offset-3"
           >
             About
           </a>
 
           <a
             href="#skills"
-            className=" hover:underline hover:text-orange-600 hover:underline-offset-3"
+            className=" hover:underline hover:text-orange-500 hover:underline-offset-3"
           >
             Skills
           </a>
 
           <a
             href="#projects"
-            className=" hover:underline hover:text-orange-600 hover:underline-offset-3"
+            className=" hover:underline hover:text-orange-500 hover:underline-offset-3"
           >
             Projects
           </a>
 
           <a
             href="#contact"
-            className=" hover:underline hover:text-orange-600 hover:underline-offset-3"
+            className=" hover:underline hover:text-orange-500 hover:underline-offset-3"
           >
             Contact
           </a>

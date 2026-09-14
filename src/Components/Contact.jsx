@@ -55,8 +55,8 @@ function Contact() {
           <div>
             <button
               type="submit"
-              className="bg-orange-700 px-2.5 py-1 rounded-3xl
-               hover:bg-orange-500 "
+              className="bg-orange-400 px-2.5 py-1 rounded-3xl
+               hover:bg-orange-500 hover:cursor-pointer "
             >
               Send Message
             </button>

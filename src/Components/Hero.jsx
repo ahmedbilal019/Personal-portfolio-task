@@ -4,11 +4,11 @@ function Hero() {
   return (
     <div
       id="hero"
-      className="hero-sec flex flex-row justify-center items-center m-auto min-h-screen"
+      className="hero-sec flex flex-row justify-center items-center m-auto min-h-screen "
     >
       <div className="intro text-center">
         <h1 className="tagLine  text-4xl sm:text-7xl ">
-          Hello! I'm <strong className="text-orange-500">Ahmed Bilal</strong>
+          Hello! I'm <strong className="text-orange-500 ">Ahmed Bilal</strong>
         </h1>
         <p className="text-2xl">
           A Web Developer Turning Ideas into Interactive Experiences.
@@ -16,8 +16,8 @@ function Hero() {
         <br />
 
         <a href="#projects" className="projectBtn">
-          <button className=" px-4 py-2 rounded-lg bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-800">
-            View my Work
+          <button className="font-bold px-4 py-2 rounded-lg bg-orange-400 transition delay-100 duration-200 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-orange-500 hover:cursor-pointer">
+            My Projects
           </button>
         </a>
       </div>
