@@ -6,7 +6,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <section>
-      <div className="  flex  justify-between items-center">
+      <div className="  flex  justify-between  items-center">
         {" "}
         <a href="" className="text-2xl font-semibold ">
           <h1>Ahmed's Portfolio</h1>
