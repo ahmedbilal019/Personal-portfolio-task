@@ -1,5 +1,7 @@
 import React from "react";
 import "../App.css";
+import profileImg from "../assets/profile.jpg";
+
 function About() {
   return (
     <section
@@ -9,7 +11,7 @@ function About() {
       <div className="profile flex justify-center  ">
         <img
           className="profileImg rounded-lg mx-20 my-20 w-80 h-80"
-          src="src/assets/profile.jpg"
+          src={profileImg}
           alt="my profile image "
         />
       </div>
