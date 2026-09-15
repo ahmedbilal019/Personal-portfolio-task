@@ -1,13 +1,13 @@
-# Personal Portfolio
+# 👨‍💻 Personal Portfolio
 
 A responsive personal portfolio website built with **React, Vite, and Tailwind CSS**. The portfolio showcases my background, technical skills, projects, and contact information.
 
-## Live Website
+## 🌐 Live Website
 
 - Live Demo: [https://mypotfoliooo.netlify.app/]
 - GitHub Repository Link: [https://github.com/ahmedbilal019/Personal-portfolio-task]
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - React.js
 - JavaScript
@@ -135,4 +135,4 @@ The portfolio is deployed using **Netlify**.
 Computer Science Graduate | Frontend Developer | MERN Stack Developer
 
 - GitHub: [https://github.com/ahmedbilal019]
-- Email: [hmed258bilal@gmail.com]
+- Email: [ahmed258bilal@gmail.com]
