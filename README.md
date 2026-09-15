@@ -20,7 +20,7 @@ A responsive personal portfolio website built with **React, Vite, and Tailwind C
 ## Portfolio Sections
 
 ### 🏠 Hero 
-The Hero section contain a tagline which contain my name and a button to jump to the projects section. I have used css animations to make this section attractive when user just open the link.
+The Hero section contain a tagline which contain my name and a button to jump-to the projects section. I have used css animations to make this section attractive when user just open the website.
 
 
 
