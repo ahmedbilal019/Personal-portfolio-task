@@ -76,7 +76,7 @@ The Navbar provides navigation between different sections and includes a respons
 The Contact section provides a form for visitors to enter their name, email, and message.
 
 
-##✨ Key React Concepts
+## ✨ Key React Concepts
 
 This project demonstrates practical use of:
 
