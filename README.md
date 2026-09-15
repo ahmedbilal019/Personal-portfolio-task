@@ -4,7 +4,8 @@ A responsive personal portfolio website built with **React, Vite, and Tailwind C
 
 ## Live Website
 
-[Visit Portfolio](https://mypotfoliooo.netlify.app/)
+Live Demo: [(https://mypotfoliooo.netlify.app/)]
+GitHub Repository Link: [(https://github.com/ahmedbilal019/Personal-portfolio-task)]
 
 ## Technologies Used
 
