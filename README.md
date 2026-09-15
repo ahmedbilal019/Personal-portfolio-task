@@ -4,8 +4,8 @@ A responsive personal portfolio website built with **React, Vite, and Tailwind C
 
 ## Live Website
 
-Live Demo: [(https://mypotfoliooo.netlify.app/)]
-GitHub Repository Link: [(https://github.com/ahmedbilal019/Personal-portfolio-task)]
+- Live Demo: [https://mypotfoliooo.netlify.app/]
+- GitHub Repository Link: [https://github.com/ahmedbilal019/Personal-portfolio-task]
 
 ## Technologies Used
 
@@ -19,9 +19,10 @@ GitHub Repository Link: [(https://github.com/ahmedbilal019/Personal-portfolio-ta
 
 ## Portfolio Sections
 
-### Home
+### Hero
+The Hero section contain a tagline which contain my name and a button to jump to the projects section. I have used css animations to make this section attractive when user just open the link.
 
-The Home section introduces me as a Computer Science graduate and web developer with an animated introduction.
+
 
 **React / Technical Concepts:**
 
@@ -150,3 +151,4 @@ The portfolio is deployed using **Netlify**.
 Computer Science Graduate | Frontend Developer | MERN Stack Developer
 
 [GitHub](https://github.com/ahmedbilal019)
+[Email](ahmed258bilal@gmail.com)
