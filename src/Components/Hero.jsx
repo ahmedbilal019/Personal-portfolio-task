@@ -10,7 +10,7 @@ function Hero() {
         <h1 className="tagLine  text-4xl sm:text-7xl ">
           Hello! I'm <strong className="text-orange-500 ">Ahmed Bilal</strong>
         </h1>
-        <p className="text-2xl">
+        <p className="text-lg sm:text-lg">
           A Web Developer Turning Ideas into Interactive Experiences.
         </p>
         <br />
